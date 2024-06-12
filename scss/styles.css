@@ -39,7 +39,7 @@ header.row-1 .header-container ul li a:hover {
   background: #222;
   color: #eee;
 }
-header.row-1 .header-container ul li ul {
+header.row-1 .header-container ul li .dropdown {
   height: 0;
   overflow: hidden;
   position: absolute;
@@ -48,16 +48,24 @@ header.row-1 .header-container ul li ul {
   margin: auto;
   background: rgba(0, 0, 0, 0.7529411765);
 }
-header.row-1 .header-container ul li ul li a {
+header.row-1 .header-container ul li .dropdown ul {
+  max-width: 1200px;
+  margin: auto;
+}
+header.row-1 .header-container ul li .dropdown ul li a {
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 200px;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
 }
-header.row-1 .header-container ul li ul li a svg {
+header.row-1 .header-container ul li .dropdown ul li a svg {
   width: 30px;
   margin-bottom: 10px;
 }
-header.row-1 .header-container ul li:hover ul {
+header.row-1 .header-container ul li:hover .dropdown {
   height: auto;
 }/*# sourceMappingURL=styles.css.map */
