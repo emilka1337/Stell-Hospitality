@@ -47,13 +47,17 @@ header.row-1 {
                     ul {
                         max-width: 1200px;
                         margin: auto;
-                        
+
                         li {
                             a {
                                 color: #fff;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
+                                width: 200px;
+                                text-align: center;
+                                height: 100%;
+                                font-size: 14px;
 
                                 svg {
                                     width: 30px;
